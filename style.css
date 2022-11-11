@@ -122,7 +122,7 @@ section .title::after{
 }
 .navbar .menu li a{
     display: block;
-    color: rgb(51, 53, 56);
+    color: rgb(255, 255, 255);
     font-size: 18px;
     font-weight: 500;
     margin-left: 25px;
@@ -130,10 +130,10 @@ section .title::after{
 }
 .navbar .menu li a:hover{
     /* color: crimson; */
-    color: #ffcc00;
+    color: #c52119;
 }
 .navbar.sticky .menu li a:hover{
-    color: #fff;
+    color: rgb(0, 0, 0);
 }
 
 /* menu btn styling */
@@ -487,14 +487,24 @@ section .title::after{
     transform: scale(1.05);
 }
 .teams .carousel .card .text{
-    font-size: 25px;
+    font-size: 20px;
     font-weight: 500;
     margin: 10px 0 7px 0;
+    color: #ffcc00;
+}
+.teams .carousel .card:hover .text{
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0 7px 0;
+    color: #000000;
 }
 .teams .carousel .card .text-2{
-    font-size: 22px;
+    font-size: 18px;
     font-weight: 500;
     margin: 0px 0 7px 0;
+}
+.teams .carousel .card p{
+    font-size: 15px;
 }
 .teams .carousel .card img{
     height: 150px;
@@ -502,7 +512,7 @@ section .title::after{
     object-fit: cover;
     border-radius: 50%;
     /* border: 5px solid crimson; */
-    border: 2px solid #ffcc00;
+    border: 5px solid #ffcc00;
     transition: all 0.3s ease;
 }
 .teams .carousel .card:hover img{
