@@ -135,10 +135,10 @@ section .title::after{
 }
 .navbar .menu li a:hover{
     /* color: crimson; */
-    color: #ffffff;
+    color: #ff0000;
 }
 .navbar.sticky .menu li a:hover{
-    color: #ff0000;
+    color: #ffffff;
 }
 
 /* menu btn styling */
