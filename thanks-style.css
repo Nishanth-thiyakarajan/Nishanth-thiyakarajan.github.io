@@ -12,7 +12,7 @@ html{
 }
 
 /* custom scroll bar */
-::-webkit-scrollbar {
+/* ::-webkit-scrollbar {
     width: 10px;
 }
 ::-webkit-scrollbar-track {
@@ -24,7 +24,7 @@ html{
 
 ::-webkit-scrollbar-thumb:hover {
     background: #555;
-}
+} */
 
 /* all similar content styling codes */
 section{
@@ -784,17 +784,11 @@ footer span a:hover{
     background: #ffcc00 ;
 }
 .thankyou-page ._header .logo {
-    max-width: 200px;
+    max-width:200px;
     margin: 0 auto 50px;
 }
 .thankyou-page ._header .logo img {
     width: 100%;
-}
-.thankyou-page ._header h1 {
-    font-size: 65px;
-    font-weight: 800;
-    color: white;
-    margin: 0;
 }
 .thankyou-page ._body {
     margin: -70px 0 30px;
@@ -803,25 +797,23 @@ footer span a:hover{
     margin: auto;
     max-width: 80%;
     padding: 50px;
-    background: white;
-    border-radius: 3px;
-    box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
-    -moz-box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
-    -webkit-box-shadow: 0 0 35px rgba(10, 10, 10,0.12);
+    background: rgb(84, 252, 75);
+    border-radius: 30px;
+    box-shadow: 0 0 450px #ffcc00;
 }
 .thankyou-page ._body ._box h2 {
     font-size: 32px;
     font-weight: 600;
-    color: #ffcc00;
+    color: #000000;
 }
 .thankyou-page ._footer {
     text-align: center;
     padding: 50px 30px;
 }
 .thankyou-page ._footer a{
-    color: #ffcc00;;
+    color: #ffcc00;
     padding: 50px 30px;
-    font-size: 16px;
+    font-size: 20px;
 }
 .thankyou-page ._footer p{
     color: #000000;
