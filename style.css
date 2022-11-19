@@ -104,7 +104,7 @@ section .title::after{
 }
 .navbar .logo a{
     color: #fff;
-    font-size: 35px;
+    font-size: 30px;
     font-weight: 600;
 }
 .navbar .logo a span{
@@ -658,6 +658,10 @@ footer span a{
 
 /* responsive media query start */
 @media (max-width: 1104px) {
+    .navbar .logo a{
+        font-size: 30px;
+        font-weight: 600;
+    }
     .about .about-content .left img{
         height: 350px;
         width: 350px;
@@ -670,6 +674,10 @@ footer span a{
     }
 }
 @media (max-width: 947px){
+    .navbar .logo a{
+        font-size: 28px;
+        font-weight: 500;
+    }
     .menu-btn{
         display: block;
         z-index: 999;
@@ -735,6 +743,10 @@ footer span a{
 }
 
 @media (max-width: 690px) {
+    .navbar .logo a{
+        font-size: 25px;
+        font-weight: 300;
+    }
     .max-width{
         padding: 0 23px;
     }
@@ -753,6 +765,10 @@ footer span a{
 }
 
 @media (max-width: 500px) {
+    .navbar .logo a{
+        font-size: 20px;
+        font-weight: 200;
+    }
     .home .home-content .text-2{
         font-size: 50px;
     }
