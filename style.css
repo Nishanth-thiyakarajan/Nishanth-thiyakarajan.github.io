@@ -177,7 +177,7 @@ section .title::after{
 /* home section styling */
 .home{
     display: relative;
-    background: url("Images/banner.jpg") no-repeat center;
+    background: url("Images/banner_1.jpg") no-repeat center;
     height: 100vh;
     color: #fff;
     min-height: auto;
